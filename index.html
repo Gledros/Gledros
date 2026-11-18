@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Della Rocca</title>
+<meta name="description" content="God, the One Substance, is trying to live and do and enjoy things through humanity. Wallace Delois Wattles.">
+<meta name="theme-color" content="#12060a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f8f0c2" media="(prefers-color-scheme: light)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cstyle%3Erect%7Bfill:%2312060a%7Dcircle%7Bfill:%23f1e4d6%7D@media(prefers-color-scheme:light)%7Brect%7Bfill:%23f8f0c2%7Dcircle%7Bfill:%232e0d14%7D%7D%3C/style%3E%3Crect width='32' height='32'/%3E%3Ccircle cx='16' cy='16' r='7'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Newsreader:ital,wght@0,300;0,400;1,300;1,400&display=swap">
+<style>
+  :root {
+    color-scheme: dark light;
+
+    /* dark (default) */
+    --bg: #12060a;
+    --glow: #3b0f1b;
+    --lead: #f7ede2;
+    --body: #bba99d;
+    --body-weight: 300;
+    --rule: #6a2a38;
+    --by: #e9dccf;
+    --mark: #75605b;
+    --sel-bg: #e9dccf;
+    --sel-fg: #12060a;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f8f0c2;
+      --glow: #efd45c;
+      --lead: #2e0d14;
+      --body: #4d3b2e;
+      --body-weight: 400;
+      --rule: #c4a63a;
+      --by: #2e0d14;
+      --mark: #7a6a38;
+      --sel-bg: #2e0d14;
+      --sel-fg: #f8f0c2;
+    }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    background: var(--bg) radial-gradient(70rem 38rem at 50% -6rem, var(--glow) 0%, transparent 72%) no-repeat;
+    color: var(--by);
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    justify-items: center;
+    padding: clamp(2rem, 6vw, 5rem) 1.5rem 1.75rem;
+    text-align: center;
+    font-family: "Newsreader", Georgia, "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection { background: var(--sel-bg); color: var(--sel-fg); }
+
+  main { display: grid; align-content: center; justify-items: center; }
+
+  .quote { max-width: 42rem; }
+
+  .lead {
+    font-family: "Gloock", Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: clamp(1.9rem, 4vw, 3.4rem);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--lead);
+    text-wrap: balance;
+  }
+
+  .body {
+    margin-top: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: var(--body-weight);
+    font-size: clamp(1.05rem, 1.3vw, 1.2rem);
+    line-height: 1.7;
+    color: var(--body);
+    text-wrap: pretty;
+  }
+
+  .by {
+    display: inline-block;
+    margin-top: clamp(1.5rem, 3vw, 2rem);
+    padding-top: 1rem;
+    border-top: 1px solid var(--rule);
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--by);
+  }
+  .by cite { font-style: italic; }
+
+  .mark {
+    margin-top: 2rem;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--mark);
+  }
+</style>
+</head>
+<body>
+  <main>
+    <blockquote class="quote">
+      <p class="lead">God, the One Substance, is trying to live and do and enjoy things through humanity.</p>
+      <p class="body">He is saying “I want hands to build wonderful structures, to play divine harmonies, to paint glorious pictures; I want feet to run my errands, eyes to see my beauties, tongues to tell mighty truths and to sing marvelous songs,” and so on. All that there is of possibility is seeking expression through men. God wants those who can play music to have pianos and every other instrument, and to have the means to cultivate their talents to the fullest extent; He wants those who can appreciate beauty to be able to surround themselves with beautiful things; He wants those who can discern truth to have every opportunity to travel and observe; He wants those who can appreciate dress to be beautifully clothed, and those who can appreciate good food to be luxuriously fed.</p>
+      <footer class="by"><cite>Wallace Delois Wattles</cite></footer>
+    </blockquote>
+  </main>
+  <footer class="mark">dellarocca.mx</footer>
+</body>
+</html>
